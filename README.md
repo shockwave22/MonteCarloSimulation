@@ -18,6 +18,20 @@ Assumptions
 Monte Carlo Simulation:
 This is a statistical technique that uses pseudo-random uniform variables for a given statistical distribution based on past risk (SD) and return (mean) to predict outcomes over future time periods. Based on iterative evaluation of each random future value, we project the portfolio future value over 20 years. We would like to run 10,000 simulations of projecting 20 year value
 
+### Output 
+Portfolio  *****Aggressive: ***********
+Initial investment: 100000.0 Return: 9.4324 Risk: 15.675
+Median:    246986.38612319104
+Best 10%:  566779.7515457878
+Worst 10%: 104496.8023950241
+
+Portfolio  *****Conservative: ***********
+Initial investment: 100000.0 Return: 6.189 Risk: 6.3438
+Median:    160944.71546657526
+Best 10%:  226774.66439247792
+Worst 10%: 114388.5380410525
+
+
 ### References
   https://datashenanigan.wordpress.com/2015/09/23/simulating-backtests-of-stock-returns-using-monte-carlo-and-snowfall-in-parallel/
   
